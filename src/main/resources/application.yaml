@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: "JWT-security-example"
+jwt:
+  issuer: "http://localhost:8080"
+  secret: "s/4KMb61LOrMYYAn4rfaQYSgr+le5SMrsMzKw8G6bXc="
+  expires-ammout: 10
+  expires-unit: SECONDS
